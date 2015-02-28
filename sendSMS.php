@@ -1,6 +1,6 @@
 <?php
-$username = "9820307446";
-$password = "way2sms";
+$username = "username";
+$password = "password";
 $url = "http://site5.way2sms.com/Login1.action?";
 $query_string = "username=$username&password=$password&button=Login";
 $url_login = $url.$query_string;
@@ -22,7 +22,7 @@ unset($ch);
 echo "sending message"; 
 $url_sendsms = "http://site2.way2sms.com/quicksms.action?";
 
-$parameters = "HiddenAction=instantsms&catnamedis=Birthday&Action=fs454sdf45454&chkall=on&MobNo=9820307446";
+$parameters = "HiddenAction=instantsms&catnamedis=Birthday&Action=fs454sdf45454&chkall=on&MobNo=xxxxxxxxx";
 echo $username;
 echo $password;
 $parameters = $parameters . "&textArea=hey%demo sms%20to%20use way2sms as birthday wisher tool&buildguid=username&buildgpwd=*******&buildyuid=username&buildypwd=*******&guid1=username&gpwd1=*******";
